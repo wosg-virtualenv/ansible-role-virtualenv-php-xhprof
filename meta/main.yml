@@ -1,0 +1,21 @@
+---
+dependencies:
+  - { role: virtualenv.php }
+  - { role: virtualenv.php-pecl }
+
+galaxy_info:
+  author: virtualenv
+  description: PHP XHProf for Linux
+  company: ""
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.4
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  categories:
+    - development
+    - web

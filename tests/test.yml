@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  remote_user: root
+
+  roles:
+    - virtualenv.php
+    - virtualenv.php-pecl
+    - ansible-role-virtualenv-php-xhprof
